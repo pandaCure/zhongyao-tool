@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "toolPackage": "@microsoft/api-extractor",
+    "toolVersion": "7.12.0",
+    "schemaVersion": 1003,
+    "oldestForwardsCompatibleVersion": 1001
+  },
+  "kind": "Package",
+  "canonicalReference": "@zhongyao/sum!",
+  "docComment": "",
+  "name": "@zhongyao/sum",
+  "members": [
+    {
+      "kind": "EntryPoint",
+      "canonicalReference": "@zhongyao/sum!",
+      "name": "",
+      "members": [
+        {
+          "kind": "Variable",
+          "canonicalReference": "@zhongyao/sum!name_2:var",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "name: "
+            },
+            {
+              "kind": "Reference",
+              "text": "IName",
+              "canonicalReference": "@zhongyao/sum!IName:interface"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "name_2",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@zhongyao/sum!sum:var",
+          "docComment": "/**\n * @param a - number 数字1\n *\n * @param b - number 数字2\n *\n * @returns number\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "sum: "
+            },
+            {
+              "kind": "Content",
+              "text": "(a: number, b: number) => number"
+            }
+          ],
+          "releaseTag": "Public",
+          "name": "sum",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        }
+      ]
+    }
+  ]
+}

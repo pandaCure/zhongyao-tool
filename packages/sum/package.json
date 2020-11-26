@@ -1,0 +1,25 @@
+{
+  "name": "@zhongyao/sum",
+  "version": "0.0.1",
+  "description": "@zhongyao/sum",
+  "main": "index.js",
+  "module": "dist/sum.esm-bundler.js",
+  "files": [
+    "index.js",
+    "dist"
+  ],
+  "types": "dist/sum.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pandaCure/zhongyao-tool.git"
+  },
+  "keywords": [
+    "tool"
+  ],
+  "author": "Zhong Yao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pandaCure/zhongyao-tool/issues"
+  },
+  "homepage": "https://github.com/pandaCure/zhongyao-tool/tree/dev/packages/${shortName}#readme"
+}
