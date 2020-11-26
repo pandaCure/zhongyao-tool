@@ -15,6 +15,6 @@ module.exports = {
     // myGlobal: false
   },
   rules: {
-    'no-require-imports': false
+    'no-require-imports': 0
   }
 }
